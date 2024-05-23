@@ -6,15 +6,52 @@ background-color: #fff;
 
 ul {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 a {
     text-decoration: none;
 }
 
+p,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button {
+    crusor:pointer;
+}
+
+img {
+    display: block;
+}
+/* container */
+.container {
+    margin: 0 auto;
+    width: 1158px;
+    padding: 0 15px;
+}
+
 /* Header */
 .header {
     background: #fff;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+display: flex;
+align-items: center;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+display: flex;
+gap: 40px;
 }
 
 .header-logo {
@@ -25,6 +62,7 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .header-logo-color {
@@ -37,6 +75,7 @@ font-family: "Raleway", sans-serif;
     color: #2e2f42;
 }
 
+
 .header-list-link {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -44,6 +83,9 @@ font-family: "Raleway", sans-serif;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        display: block;
 }
 
 .header-list-link:hover,
@@ -52,9 +94,15 @@ font-family: "Raleway", sans-serif;
 }
 
 .adress {
-    font-style: normal
+    margin-left: auto;
+    font-style: normal;
+    
 }
 
+.adress-list {
+    display: flex;
+    gap: 40px;
+}
 .adress-list-item-link {
     font-size: 16px;
     line-height: 150%;
@@ -72,6 +120,12 @@ font-family: "Raleway", sans-serif;
     background: #2e2f42;
 }
 
+.container-hero {
+    padding: 188px 472px;
+    width: 1440px;
+    height: 600px;
+}
+
 .hero-title {
         font-weight: 700;
         font-size: 56px;
@@ -79,6 +133,7 @@ font-family: "Raleway", sans-serif;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        margin-bottom: 48px;
 }
 
 .button {
@@ -89,6 +144,12 @@ font-family: "Raleway", sans-serif;
         color: #fff;
         cursor: pointer;
         background-color: #4d5ae5;
+        display: block;
+        margin: 0 auto;
+        border: none;
+        padding: 16px 32px;
+        border-radius: 4px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .button:hover,
@@ -100,9 +161,32 @@ background-color: #404bbf;
 /* Section 2 */
 .benefits {}
 
-.benefits-list {}
+.visually-hidden {
+position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
-.benefits-list-item {}
+.benefits-container {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.benefits-list {
+    display: flex;
+    gap: 24px;
+}
+
+.benefits-list-item {
+    width: calc((100%-3*24) / 4);
+}
 
 .benefits-list-title {
         font-weight: 500;
@@ -110,6 +194,7 @@ background-color: #404bbf;
         line-height: 120%;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .benefits-list-par {
@@ -124,6 +209,10 @@ background-color: #404bbf;
 .team{
     background-color: #f4f4fd;
 }
+.team-container{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .team-title {
         font-weight: 700;
@@ -135,14 +224,25 @@ background-color: #404bbf;
 }
 
 .team-title {
-    text-transform: capitalize
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-list {
+    display:flex;
+    gap: 24px;
 }
 
 .team-list-item {
     background-color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
+    padding: 0px 0px 32px 0px;
+        width: 264px;
+        height: 380px;
+        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+            background: #fff;
 }
 
 .team-list-title {
@@ -152,6 +252,9 @@ background-color: #404bbf;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 8px;
+       
+        
 }
 
 .team-list-par {
@@ -160,10 +263,22 @@ background-color: #404bbf;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+        
 }
 
+.team-img {
+    display: block;
+    width: 264px;
+        height: 260px;
+        margin-bottom: 32px;
+}
 /* Section 4 */
 .portfolio {
+}
+
+.portfolio-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -173,14 +288,29 @@ background-color: #404bbf;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 72px;
+}
+.portfolio-img {
+margin: 0 auto;
+margin-bottom: 32px;
 }
 
 .portfolio-title {
-text-transform: capitalize
-}
-.portfolio-list {}
+text-transform: capitalize;
+margin-bottom: 8px;
 
-.portfolio-list-item {}
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+}
+
+.portfolio-list-item {
+    width: calc((100% - 48) / 3);
+    border: 1px solid #e7e9fc;
+}
 
 .portfolio-list-title {
         font-weight: 500;
@@ -188,7 +318,9 @@ text-transform: capitalize
         line-height: 120%;
         letter-spacing: 0.02em;
         color: #2e2f42;
+            
 }
+
 
 .portfolio-list-par {
         font-size: 16px;
@@ -203,6 +335,13 @@ text-transform: capitalize
     background-color: #2e2f42;
 }
 
+.footer-container {
+    width: 1440px;
+        height: 312px;
+        padding-top: 100px;
+            padding-bottom: 100px;
+}
+
 .footer-link {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -211,6 +350,8 @@ text-transform: capitalize
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-par {
@@ -218,6 +359,7 @@ text-transform: capitalize
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        
 }
 
 .footer-link-color
@@ -229,4 +371,5 @@ text-transform: capitalize
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #f4f4fd;
+        
 }
