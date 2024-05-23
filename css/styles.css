@@ -310,7 +310,11 @@ display: block;
         border-left: 1px solid #e7e9fc;
         border-right: 1px solid #e7e9fc;
         overflow: hidden;
+       
 }
+
+
+
 
 .portfolio-list-title {
         font-weight: 500;
