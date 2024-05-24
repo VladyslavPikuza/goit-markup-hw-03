@@ -189,8 +189,6 @@ padding: 120px 0;
 .benefits-list-item {
     width: calc((100% - 72px) / 4);
     margin-right: 0;
-    display: flex;
-        flex-direction: column;
 }
 
 .benefits-list-title {
