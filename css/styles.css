@@ -229,21 +229,10 @@ padding: 120px 0;
         color: #2e2f42;
 }
 
-.mark-guerrero {
-    padding: 32px 0;
-}
-
-.tom-ford {
+.team-content {
 padding: 32px 0;
 }
 
-.camila-garcia {
-padding: 32px 0;
-}
-
-.daniel-wilson {
-padding: 32px 0;
-}
 
 .team-title {
     text-transform: capitalize;
@@ -330,41 +319,13 @@ display: block;
        
 }
 
-.banking-app {
+.portfolio-content {
 padding: 32px 16px;
-border: 1px solid #e7e9fc;
-border-top: none;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
-.cashless-payment {
-padding: 32px 16px;
-border: 1px solid #e7e9fc;
-border-top: none;
-}
 
-.meditation-app {
-padding: 32px 16px;
-border: 1px solid #e7e9fc;
-border-top: none;
-}
-
-.taxi-service {
-padding: 32px 16px;
-border: 1px solid #e7e9fc;
-border-top: none;
-}
-
-.screen-illustrations {
-padding: 32px 16px;
-border: 1px solid #e7e9fc;
-border-top: none;
-}
-
-.online-courses{
-padding: 32px 16px;
-border: 1px solid #e7e9fc;
-border-top: none;
-}
 
 
 .portfolio-list-title {
