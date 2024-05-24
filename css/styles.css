@@ -307,7 +307,6 @@ padding: 32px 0;
 }
 .portfolio-img {
 margin: 0 auto;
-margin-bottom: 32px;
 display: block;
 
 }
@@ -323,14 +322,45 @@ display: block;
 
 .portfolio-list-item {
     width: calc((100% - 48px) / 3);
-    border-bottom: 1px solid #e7e9fc;
-        border-left: 1px solid #e7e9fc;
-        border-right: 1px solid #e7e9fc;
         overflow: hidden;
        
 }
 
+.banking-app {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+}
 
+.cashless-payment {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+}
+
+.meditation-app {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+}
+
+.taxi-service {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+}
+
+.screen-illustrations {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+}
+
+.online-courses{
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+}
 
 
 .portfolio-list-title {
@@ -339,7 +369,6 @@ display: block;
         line-height: 120%;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding-left: 16px;
         margin-bottom: 8px;
             
 }
@@ -351,8 +380,6 @@ display: block;
         letter-spacing: 0.02em;
         color: #434455;
         text-align: left;
-        margin-bottom: 32px;
-        padding-left:16px;
 }
 
 /* Footer */
