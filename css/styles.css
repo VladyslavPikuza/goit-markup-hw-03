@@ -187,7 +187,10 @@ padding: 120px 0;
 }
 
 .benefits-list-item {
-    width: calc((100%-3*24px) / 4);
+    width: calc((100% - 72px) / 4);
+    margin-right: 0;
+    display: flex;
+        flex-direction: column;
 }
 
 .benefits-list-title {
@@ -197,6 +200,7 @@ padding: 120px 0;
         letter-spacing: 0.02em;
         color: #2e2f42;
         margin-bottom: 8px;
+        
 }
 
 .benefits-list-par {
@@ -204,6 +208,7 @@ padding: 120px 0;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;
+        
 }
 
 /* Section 3 */
