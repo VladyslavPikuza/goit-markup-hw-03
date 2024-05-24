@@ -117,14 +117,14 @@ font-family: "Raleway", sans-serif;
 }
 /* section 1 */
 .hero {
-    background: #2e2f42;
+    
 
 }
 
 .container-hero {
+    background: #2e2f42;
     padding: 188px 0;
-    width: 1440px;
-    height: 600px;
+    margin: 0 auto;
 }
 
 .hero-title {
