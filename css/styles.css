@@ -365,7 +365,6 @@ padding: 100px 0;
         color: #4d5ae5;
         display: inline-block;
         margin-bottom: 16px;
-        padding-left: 156px;
 }
 
 .footer-par {
@@ -373,7 +372,7 @@ padding: 100px 0;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #f4f4fd;
-        padding-left: 156px;
+        max-width: 264px;
         
 }
 
